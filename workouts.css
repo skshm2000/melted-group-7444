@@ -1,0 +1,107 @@
+/* WORKOUTS CONTAINER 1 */
+/* --------------------------------------------------------- */
+#workoutsContainer1 {
+    width: 100%;
+}
+
+#workoutsContainer1 img {
+    width: 100%;
+    position: relative;
+}
+
+#workoutsContainer1 div {
+    position: absolute;
+    z-index: 1;
+    margin-top: 170px;
+    margin-left: 270px;
+}
+
+#workoutsContainer1 p:nth-of-type(1) {
+    color: blue;
+    font-size: 16px;
+}
+
+#workoutsContainer1 p:nth-of-type(2), #workoutsContainer1 p:nth-of-type(3) {
+    color: white;
+    font-size: 45px;
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+
+#workoutsContainer1 p:nth-of-type(4) {
+    color: white;
+    font-size: 18px;
+}
+
+/* -------------------------------------------------------- */
+/* WORKOUTS CONTAINER 2 */
+/* -------------------------------------------------------- */
+
+.workoutsContainer2 {
+    background-color: #E3EBEE;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.cards {
+    width: 70%;
+    margin: auto ;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+.heading {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading p:nth-of-type(1) {
+    font-size: 40px;
+}
+
+.heading p:nth-of-type(2) {
+    font-size: 16px;
+}
+
+.cards>div {
+    background-color: white;
+    padding-bottom: 90px;
+}
+
+.cards>div p:nth-of-type(1) {
+    color: blue;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.cards>div p:nth-of-type(2) {
+    margin: 0px 15px 0px 20px; 
+    font-size: 20px;
+}
+
+.cards>div:hover {
+    border: 2px solid lightskyblue;
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* Container 3 */
+/* ----------------------------------------------------------------------------------- */
+
+.workoutsContainer2 img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.workoutsContainer2.lighter {
+    background-color: #F0F4F6;
+}
+
+.cards>div p:nth-of-type(3) {
+    margin-left: 20px;
+}
