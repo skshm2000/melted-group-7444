@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="navbar">
-        <img src="https://cloudfront.fitnessblender.com/assets/img/fit-ogp-logo.jpg" alt="">
+        <img id="mainLogo"  src="https://cloudfront.fitnessblender.com/assets/img/fit-ogp-logo.jpg" alt="">
         <a href="workouts.html">WORKOUTS</a>
         <p>PROGRAMS</p>
         <P>HEALTHY LIVING</P>
@@ -39,9 +39,9 @@
         <span style="margin-left: 8px;">OR</span>
         <div>
             <div id="form">               
-                <input type="text" placeholder="Username">
+                <input id="Uname" type="text" placeholder="Username">
                 <br>
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Password" id="pass">
                 <br>
             </div>
         </div>
@@ -49,7 +49,7 @@
             <input type="checkbox"><span>Remember Me</span>
         </div>
         <br>
-        <button style="margin-top: 20px;">Sign In</button>
+        <button id="signin" style="margin-top: 20px;">Sign In</button>
         <p>Not a member yet? <a href="signup.html">Join now -- it’s free!</a></p>
     </div>
 
@@ -98,3 +98,6 @@
 </div>
 </body>
 </html>
+
+<script src="navbar.js"></script>
+<script src="signin.js"></script>
