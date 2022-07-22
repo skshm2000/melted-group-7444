@@ -69,6 +69,7 @@
     padding: 15px 25px;
     border-radius: 5px;
     margin-top: 12px;
+    cursor: pointer;
 }
 
 /* CONTAINER 2 */
@@ -125,6 +126,10 @@
 #card1 {
     background-color: #F0F4F6;
     text-align: center;
+}
+
+#FAW {
+    cursor: pointer;
 }
 
 #card1 p:nth-of-type(1) {

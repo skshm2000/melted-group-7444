@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="navbar">
-        <img src="https://cloudfront.fitnessblender.com/assets/img/fit-ogp-logo.jpg" alt="">
+        <img id="mainLogo"  src="https://cloudfront.fitnessblender.com/assets/img/fit-ogp-logo.jpg" alt="">
         <a href="workouts.html">WORKOUTS</a>
         <p>PROGRAMS</p>
         <P>HEALTHY LIVING</P>
@@ -39,17 +39,17 @@
         <span style="margin-left: 8px;">OR</span>
         <div>
             <div id="form">
-                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="First Name" id="firstName">
                 <br>
-                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Last Name" id="lastName">
                 <br>
-                <input type="Email" placeholder="Email Address">
+                <input type="Email" placeholder="Email Address" id="email">
                 <br>
-                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Username" id="userName">
                 <br>
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Password" id="password">
                 <br>
-                <input type="password" placeholder="Confirm Password">
+                <input type="password" placeholder="Confirm Password" id="confirmPass">
             </div>
             <div id="bens">
                 <p>Key Benifits:</p>
@@ -63,9 +63,9 @@
                 </ul>
             </div>
         </div>
-        <input type="checkbox"><span>I agree to the Fitness Blender terms of service and privacy policy</span>
+        <input id="checker" type="checkbox"><span>I agree to the Fitness Blender terms of service and privacy policy</span>
         <br>
-        <button>JOIN</button>
+        <button id="Join">JOIN</button>
         <p>Already a member? <a href="Signin.html">Sign In</a></p>
     </div>
 
@@ -114,3 +114,6 @@
     </div>
 </body>
 </html>
+
+<script src="navbar.js"></script>
+<script src="signup.js"></script>
