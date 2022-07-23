@@ -105,3 +105,65 @@
 .cards>div p:nth-of-type(3) {
     margin-left: 20px;
 }
+
+
+
+@media all and (min-width: 480px) and (max-width: 785px) {
+    .cards {
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    #workoutsContainer1 div {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    #workoutsContainer1 p:nth-of-type(2), #workoutsContainer1 p:nth-of-type(3) {
+        font-size: 25px;
+    }
+
+    #workoutsContainer1 p:nth-of-type(4) {
+        font-size: 10px;
+    }
+
+    .heading p:nth-of-type(1) {
+        font-size: 25px;
+    }
+    
+    .heading p:nth-of-type(2) {
+        font-size: 12px;
+    }
+}
+
+
+
+@media all and (min-width: 0px) and (max-width: 479px) {
+    .cards {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    #workoutsContainer1 div {
+        margin-top: 3px;
+        margin-left: 2px;
+    }
+
+    #workoutsContainer1 p:nth-of-type(2), #workoutsContainer1 p:nth-of-type(3) {
+        font-size: 18px;
+    }
+
+    #workoutsContainer1 p:nth-of-type(4) {
+        font-size: 8px;
+    }
+
+    .heading p:nth-of-type(1) {
+        font-size: 18px;
+    }
+    
+    .heading p:nth-of-type(2) {
+        font-size: 10px;
+    }
+}

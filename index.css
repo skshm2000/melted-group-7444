@@ -234,12 +234,14 @@
     text-align: center;
     margin: auto;
     margin-top: 10px;
+    position: relative;
 }
 
 #container4 div {
-    left: 500px;
     position: absolute;
+    width: 100%;
     z-index: 100;
+    margin: auto;
 }
 
 #container4 p:nth-of-type(1) {
@@ -371,4 +373,90 @@
 .heading {
     font-weight: bold;
     font-size: 17px;
+}
+
+
+@media all and (min-width: 480px) and (max-width: 785px) {
+    #container1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #container1 div:nth-of-type(2) {
+        margin-left: 100px;
+        width: 80%;
+    }
+
+    #container2 img {
+        width: 80%;
+    }
+
+    #container2 div {
+        width: 80%;
+    }
+
+    #container4 p:nth-of-type(1) {
+        font-size: 30px;
+    }
+    
+    #container4 p:nth-of-type(2) {
+        font-size: 18px;
+        width: 70%;
+    }
+
+    #W2S>div {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;   
+    }
+
+}
+
+@media all and (min-width: 0px) and (max-width: 479px) {
+    #container1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #container1 div:nth-of-type(2) {
+        margin-left: 100px;
+        width: 80%;
+    }
+
+    #container2 img {
+        width: 80%;
+    }
+
+    #container2 div {
+        width: 80%;
+    }
+
+    #container4 p:nth-of-type(1) {
+        font-size: 28px;
+    }
+    
+    #container4 p:nth-of-type(2) {
+        font-size: 15px;
+        width: 80%;
+    }
+
+    #W2S>div {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;   
+    }
+
+    #W2S>p:nth-of-type(1) {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    
+    #W2S>p:nth-of-type(2) {
+        font-size: 15px;
+        color: grey;
+        margin-top: -1px;
+    }
+
+    #container3 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr);
+    }
 }
