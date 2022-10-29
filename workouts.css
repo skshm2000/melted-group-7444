@@ -2,6 +2,7 @@
 /* --------------------------------------------------------- */
 #workoutsContainer1 {
     width: 100%;
+    position: relative;
 }
 
 #workoutsContainer1 img {
@@ -10,8 +11,8 @@
 }
 
 #workoutsContainer1 div {
-    position: absolute;
     z-index: 1;
+    position: absolute;
     margin-top: 170px;
     margin-left: 270px;
 }
